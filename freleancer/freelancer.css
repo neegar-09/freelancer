@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,100;0,500;1,400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+nav{
+	width: 100%;
+	background-color: #2c3e50;
+	position: fixed;
+	z-index: 1;
+	
+}
+.ortalama{
+	width: 83%;
+	margin: 0 auto;
+}
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 0;
+}
+.start{
+	width: 80%;
+}
+.start a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+}
+.nav_yazi{
+	width: 36%;
+
+}
+.ul_nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.ul_nav a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: white;
+	font-weight: 600;
+}
+.ul_nav a:hover{
+	color: #1abc9c;
+}
+#sec1{
+	width: 100%;
+	height: 80vh;
+	background-color:#1abc9c;
+	padding-top: 180px;
+}
+.sec1_sekil{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.sec1_sekil img{
+	width: 245px;
+}
+.sec1_start{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+}
+.sec1_start h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 60px;
+	color: white;
+	font-weight: 700;
+}
+.star{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0;
+}
+.star i{
+	font-size: 34px;
+	color: white;
+	margin: 0 20px;
+}
+.xett{
+	width: 120px;
+	height: 5px;
+	background-color: white;
+	border-radius: 20px;
+}
+.web{
+	width: 100%;
+	text-align: center;
+}
+.web p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: white;
+	font-weight: 500;
+}
+#sec2{
+	width: 100%;
+}
+.sec2_start h1{
+	color: #2c3e50;
+	font-size: 50px;
+}
+.sec2_xett{
+	background-color: #2c3e50;
+}
+.sec2_star i {
+	color: #2c3e50;
+}
+.cem{
+	width: 100%;
+	position: relative;
+}
+.sekiller{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.sekil{
+	width: 352px;
+	height: 250px;
+	border-radius: 9px;
+}
+.sekil1{
+	background-image: url("ev.png");
+	background-size: cover;
+}
+.sekil2{
+	background-image: url(cake.png);
+	background-size: cover;
+}
+.sekil3{
+	background-image: url(circus.png);
+	background-size: cover;
+}
+.sekil4{
+	background-image: url(game.png);
+	background-size: cover;
+}
+.sekil5{
+	background-image: url(safe.png);
+	background-size: cover;
+}
+.sekil6{
+	background-image: url(plane.png);
+	background-size: cover;
+}
+.sekil4 , .sekil5 , .sekil6{
+	margin-top: 30px;
+}
+.reng{
+	background-color: #1abc9c;
+	margin-top: 30px;
+
+}
+.reng i{
+	font-size: 80px;
+	color: white;
+	transform: translateY(82px) translateX(139px);
+}
+.rengler {
+	position: absolute;
+	top: -30px;
+	width: 83%;
+}
+.reng{
+	opacity: 0;
+}
+.reng:hover{
+	opacity: 0.9;
+	transition: 0.5s;
+}
+#sec3{
+	width: 100%;
+	background-color:#1abc9c;
+	margin-top: 75px;
+}
+.sec3_pad{
+	width: 90%;
+    margin: auto;
+    padding: 40px 0 70px;
+}
+#iki_hisse{
+	width: 59%;
+	column-count: 2;
+	column-gap:72px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 19px;
+	margin: auto;
+}
+.free {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.free:hover a{
+ 	background-color: white;
+ 	color: black;
+ 	transition: 0.5s
+}
+.free a{
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 15px 20px;
+}
+#sec4{
+	width: 100%;
+	margin-top: 6rem;
+}
+.input{
+	width: 50%;
+	margin: auto;
+}
+input{
+	width: 50%;
+	padding: 40px 40px 30px;
+	outline: 0;
+	border: 0;
+	margin: auto;
+	font-size: 23px;
+}
+.xet{
+	width: 90%;
+    height: 1px;
+    background-color: #ced4da;
+    margin: auto;
+}
+.textarea{
+	width: 45%;
+	margin: auto;
+}
+textarea{
+	font-size: 23px;
+	padding: 30px 0 50px;
+    width: 38rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ced4da;
+    outline: 0;
+
+}
+.send{
+	width: 45%;
+	margin: auto;
+	margin-top: 20px;
+}
+.send button{
+	border-radius: 9px;
+	background-color: #6bd4bf;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 19px;
+	padding: 20px 28px;
+	border: 0;
+
+}
+#sec5{
+	width: 100%;
+	background-color: #2c3e50;
+	margin-top: 90px;
+}
+.sec5_cem{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 93px 0;
+}
+.same{
+	width: 33%;
+	text-align: center;
+}
+.same h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 25px;
+}
+.john{
+	    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.john2{
+	width: 100%;
+}
+.john2 a{
+	color: #1abc9c;
+	text-decoration: underline;
+}
+.same p{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: white;
+	font-size: 18px;
+}
+.around2{
+	margin-top: 30px;
+}
+.around2 i{
+	color: white;
+	font-size: 23px;
+	padding: 11px 14px;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+.around2 i:hover{
+	background-color: white;
+	color: black;
+	transition: 0.5s;
+}
+footer{
+	width: 100%;
+	background-color: #1a252f;
+}
+footer p{
+	text-align: center;
+	color: white;
+	padding: 30px 0;
+}
